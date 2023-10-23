@@ -53,7 +53,7 @@ AboutDialog::AboutDialog(wxWindow* parent,wxWindowID id,const wxPoint& pos,const
 	LegalTextLabel->SetMaxSize(wxSize(400,-1));
 	FlexGridSizer3->Add(LegalTextLabel, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
 	FlexGridSizer4 = new wxFlexGridSizer(0, 1, 0, 0);
-	PrivacyHyperlinkCtrl = new wxHyperlinkCtrl(this, ID_HYPERLINKCTRL1, _("Privacy Policy"), _("https://xlights.org/privacy-policy/"), wxDefaultPosition, wxDefaultSize, wxHL_CONTEXTMENU|wxHL_ALIGN_CENTRE|wxNO_BORDER, _T("ID_HYPERLINKCTRL1"));
+	PrivacyHyperlinkCtrl = new wxHyperlinkCtrl(this, ID_HYPERLINKCTRL1, _("Privacy PolicyX"), _("https://xlights.org/privacy-policy/"), wxDefaultPosition, wxDefaultSize, wxHL_CONTEXTMENU|wxHL_ALIGN_CENTRE|wxNO_BORDER, _T("ID_HYPERLINKCTRL1"));
 	FlexGridSizer4->Add(PrivacyHyperlinkCtrl, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
 	EULAHyperlinkCtrl = new wxHyperlinkCtrl(this, ID_HYPERLINKCTRL2, _("https://xlights.org/privacy-policy/"), wxEmptyString, wxDefaultPosition, wxDefaultSize, wxHL_CONTEXTMENU|wxHL_ALIGN_CENTRE|wxNO_BORDER, _T("ID_HYPERLINKCTRL2"));
 	EULAHyperlinkCtrl->Hide();
